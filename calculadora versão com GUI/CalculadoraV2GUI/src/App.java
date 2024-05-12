@@ -20,13 +20,13 @@ public class App extends JFrame implements ActionListener {
             System.err.println(e.getMessage());
         }
 
-        // Create an instance of App
+        
         App calculator = new App();
 
         textField = new JTextField(16);
         textField.setEditable(false);
 
-        // Create buttons
+        // Cria botoes
         JButton b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, ba, bs, bd, bm, be, beq, beq1;
 
         b0 = new JButton("0");
@@ -76,7 +76,7 @@ public class App extends JFrame implements ActionListener {
         f.setSize(500, 500);
         f.setVisible(true);
 
-        // Add action listeners
+        // adiciona listeners de ações
         b0.addActionListener(calculator);
         b1.addActionListener(calculator);
         b2.addActionListener(calculator);
